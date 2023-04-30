@@ -11,11 +11,11 @@ function Stat() {
     const chart = new Chart(chartNode, {
       type: 'bar',
       data: {
-        labels: ['Administratif', 'Affaire', 'Famille', 'Sociale', 'Pénal', 'Propriété intelectuelle', 'Immobilier'],
+        labels: ['Propriété intelectuelle', 'Affaire', 'Famille', 'Sociale', 'Pénal', 'Administratif', 'Immobilier'],
         datasets: [
           {
             
-            data: [10, 5, 10, 15, 40, 5, 20],
+            data: [5, 5, 10, 15, 40, 10, 20],
             backgroundColor: 'rgba(54, 162, 235, 50)',
             borderColor: 'rgba(54, 162, 235, 50)',
             borderWidth: 2,
