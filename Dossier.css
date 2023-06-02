@@ -1,0 +1,121 @@
+/* Dossier.css */
+
+.form-container {
+  margin-top: 20px;
+}
+
+.dossier-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b9acac;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(54, 3, 3, 0.1);
+}
+
+.dossier-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-buttons .submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0b2458;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Nouvelles propriétés de style */
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+
+
+.form-buttons .close-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b31f14e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* Nouvelles propriétés de style */
+  font-size: 14px;
+}
+
+
+.dossier-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dossier-item {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #acadd3;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(214, 23, 23, 0.1);
+  cursor: pointer;
+}
+
+.dossier-item:hover {
+  background-color: #5c141413;
+}
+
+.dossier-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dossier-details h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.dossier-details .submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0a2d55;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.dossier-details .close-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a00b0b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
